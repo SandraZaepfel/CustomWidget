@@ -11,7 +11,7 @@
  }
 </style> 
  `;
- class ColoredBox extends HTMLElement {
+ class Box extends HTMLElement {
  constructor() {
  super();
  let shadowRoot = this.attachShadow({mode: "open"});
@@ -34,5 +34,5 @@
  }
  }
  }
- customElements.define("com-sap-sample-coloredbox", ColoredBox);
+ customElements.define("com-sap-sample-box", Box);
 })();
