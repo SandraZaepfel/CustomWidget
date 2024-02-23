@@ -12,7 +12,7 @@
  {
  "kind": "main",
  "tag": "com-sample-box",
- "url": "https://github.com/SandraZaepfel/CustomWidgets/blob/main/box/box.json",
+ "url": "https://github.com/SandraZaepfel/CustomWidgets/blob/main/box/box.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
