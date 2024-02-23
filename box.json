@@ -1,35 +1,32 @@
 {
- "id": "com.sap.sample.coloredbox",
+ "id": "com.sample.box",
  "version": "1.0.0",
- "name": "Colored Box",
+ "name": "Box",
  "description": "A colored box",
- "newInstancePrefix": "ColoredBox",
- "icon": "https://www.sample.com/customwidgets/coloredbox/icon.png",
- "vendor": "SAP",
+ "newInstancePrefix": "Box",
+ "icon": "https://www.sample.com/customwidgets/box/icon.png",
+ "vendor": "Sample",
  "eula": "",
  "license": "",
  "webcomponents": [
  {
  "kind": "main",
- "tag": "com-sap-sample-coloredbox",
- "url": "https://www.sample.com/customwidgets/coloredbox/
-coloredbox.js",
+ "tag": "com-sample-box",
+ "url": ""https://www.sample.com/customwidgets/box/box.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "styling",
- "tag": "com-sap-sample-coloredbox-styling",
- "url": "https://www.sample.com/customwidgets/coloredbox/
-coloredbox_styling.js",
+ "tag": "com-sample-box-styling",
+ "url": ""https://www.sample.com/customwidgets/box/box_styling.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "builder",
- "tag": "com-sap-sample-coloredbox-builder",
- "url": "https://www.sample.com/customwidgets/coloredbox/
-coloredbox_builder.js",
+ "tag": "com-sample-box-builder",
+ "url": "https://www.sample.com/customwidgets/box/box_builder.js",
  "integrity": "",
  "ignoreIntegrity": true
  }
@@ -74,7 +71,7 @@ coloredbox_builder.js",
  },
  "events": {
  "onClick": {
- "description": "Called when the user clicks the Colored Box."
+ "description": "Called when the user clicks the Box."
  }
  }
 }
