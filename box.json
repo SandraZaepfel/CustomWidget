@@ -11,8 +11,6 @@
  "webcomponents": [
  {
  "kind": "main",
-SAP Analytics Cloud Custom Widget Developer Guide
-A Sample Custom Widget: Colored Box PUBLIC 35
  "tag": "com-sap-sample-coloredbox",
  "url": "https://www.sample.com/customwidgets/coloredbox/
 coloredbox.js",
