@@ -4,7 +4,7 @@
  "name": "Box",
  "description": "A colored box",
  "newInstancePrefix": "Box",
- "icon": "https://www.sample.com/customwidgets/box/icon.png",
+ "icon": "https://github.com/SandraZaepfel/CustomWidgets/blob/main/box/icon.png",
  "vendor": "Sample",
  "eula": "",
  "license": "",
@@ -19,14 +19,14 @@
  {
  "kind": "styling",
  "tag": "com-sample-box-styling",
- "url": "https://github.com/SandraZaepfel/CustomWidgets/blob/main/box/box.json",
+ "url": "https://github.com/SandraZaepfel/CustomWidgets/blob/main/box/box_styling.js",
  "integrity": "",
  "ignoreIntegrity": true
  },
  {
  "kind": "builder",
  "tag": "com-sample-box-builder",
- "url": "https://github.com/SandraZaepfel/CustomWidgets/blob/main/box/box.json",
+ "url": "https://github.com/SandraZaepfel/CustomWidgets/blob/main/box/box_builder.js",
  "integrity": "",
  "ignoreIntegrity": true
  }
