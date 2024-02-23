@@ -42,4 +42,4 @@ this._submit.bind(this));
  }
  }
 customElements.define("com-sap-sample-box-styling",
-ColoredBoxStylingPanel);
+BoxStylingPanel);
