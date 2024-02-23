@@ -3,7 +3,7 @@
  template.innerHTML = `
  <form id="form">
  <fieldset>
- <legend>Colored Box Properties</legend>
+ <legend>Box Properties</legend>
  <table>
  <tr>
  <td>Opacity</td>
@@ -21,7 +21,7 @@ maxlength="5"></td>
  }
  </style>
  `;
- class ColoredBoxBuilderPanel extends HTMLElement {
+ class BoxBuilderPanel extends HTMLElement {
  constructor() {
  super();
  this._shadowRoot = this.attachShadow({mode: "open"});
@@ -48,6 +48,6 @@ newOpacity;
  return this._shadowRoot.getElementById("builder_opacity").value;
  }
  }
- customElements.define("com-sap-sample-coloredbox-builder",
-ColoredBoxBuilderPanel);
+ customElements.define("com-sap-sample-box-builder",
+BoxBuilderPanel);
 })();
